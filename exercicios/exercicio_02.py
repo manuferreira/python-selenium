@@ -16,3 +16,4 @@ while True:
     p_list = browser.find_elements_by_tag_name('p')
     if num_esperado in p_list[-1].text:
         break
+
